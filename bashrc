@@ -21,7 +21,8 @@ targz() { tar -zcvf $1.tar.gz $1; }
 untargz() { tar -zxvf $1; }
 
 # Navigate
-function cd() {
-    builtin cd "$@" && ls -l;
+cd_func() {
+    cd "$@" && ls -l;
 }
 
+alias cd=cd_func
