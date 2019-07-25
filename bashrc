@@ -14,7 +14,7 @@ alias l='ls -CF'
 alias grep='grep --color=auto'
 
 # User prompt
-export PS1="\n\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;194m\]\u@\H\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tp    ut bold)\]\[$(tput sgr0)\]\[\033[38;5;223m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]\n\\$ \[$(tput sgr0)\]"
+export PS1="\n\[$(tput bold)\]\[$(tput sgr0)\][\033[01;37m\]\t] \[\033[38;5;194m\]\u@\H\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;223m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]\n\\$ \[$(tput sgr0)\]"
 
 # User functions
 
