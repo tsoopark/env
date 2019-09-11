@@ -28,3 +28,5 @@ cd_func() {
 }
 
 alias cd=cd_func
+
+HISTTIMEFORMAT="[%Y-%m-%d %H:%M:%S] "
