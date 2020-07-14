@@ -1,4 +1,5 @@
-syntac on
+syntax on
+
 set hlsearch
 set number
 set tabstop=4
